@@ -1,0 +1,108 @@
+.milestones-section {
+ padding: 5rem 1rem;
+ background: linear-gradient(to left, rgb(255, 255, 255), #efd9bc);
+ display:flex ;
+ box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.1); /* White shadow combined with subtle black for depth */
+  max-width: 100%; /* Adjust width based on your layout */
+  margin: 0 auto; /* Center the section horizontally */
+  background-clip: padding-box; /* Ensures shadow doesn't overlap */
+  
+}
+.timeline-tit{
+  color: #695020;
+}
+.timeline {
+  max-width: 900px;  /* Larger width for better presentation */
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 80px;  /* More space for a cleaner look */
+  margin-bottom: 40px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: scale(1.01);
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #0f0f0f;
+}
+
+.timeline-marker {
+  width: 20px;
+  height: 20px;
+  background-color: #f2f1ec;
+  border: 5px solid #453a17;
+  border-radius: 0%;
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.timeline-marker:hover {
+  background-color: #f4bc05;
+}
+
+.timeline-content {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 20px;
+  margin-left: 60px;
+  border: 2px solid #e3e3e3;
+}
+
+.timeline-content:hover {
+  border-color: #bc961a;
+}
+
+.date {
+  background: linear-gradient(to left, rgb(255, 255, 255), #60410f);
+  color: #0a0909;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+
+.progress {
+  background-color: #ceeaf1;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 16px;
+  border-radius: 6px;
+  background-color: #ef8a0f;
+  transition: width 0.3s ease;
+}
+
+h2 {
+  margin-top: 0;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.milestone-title {
+  font-size: 22px;
+  color: #040404;
+  margin-bottom: 10px;
+  display: flex;
+}

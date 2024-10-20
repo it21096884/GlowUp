@@ -1,0 +1,93 @@
+.methodology-section {
+  padding: 4rem 5rem; /* Adjust padding for a balanced look */
+  background: linear-gradient(to left, rgb(255, 255, 255), #efd9bc); /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 86%;
+  margin: 0 auto;
+  
+}
+.main-pp{
+  font-size: medium;
+}
+.methodology-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333; /* Darker color for better readability */
+}
+
+.methodology-content {
+  display: flex;
+  flex-wrap: wrap; /* Ensure responsiveness */
+  gap: 30px; /* Space between the image and the text */ 
+}
+
+.methodology-image {
+  flex: 1 1 40%; /* Allow the image to take 40% of the width */
+  padding: 15px; /* Add padding around the image */
+  border: 5px solid #0c0c0c; /* Solid border for the frame */
+  border-radius: 10px; /* Rounded corners for the frame */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  background-color: #fff; /* Background color for the frame area */
+  align-items: center;
+  justify-content: center;
+}
+
+.methodology-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Rounded corners for the image */
+  display: block; /* Ensure no extra space below the image */
+  margin: 0 auto; /* Center the image */
+}
+
+.figure-caption {
+  font-size: 0.5rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.methodology-text {
+  flex: 1 1 55%; /* Allow the text to take 55% of the width */
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555; /* Lighter text color for a softer look */
+}
+
+.component {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem; /* Space between components */
+}
+.list-comp{
+
+  text-align: justify;
+}
+.para-comp{
+  text-align: justify;
+  font-size: medium;
+}
+.cont{
+  font-weight: bold;
+}
+.cont-div{
+  margin-left: 120px;
+}
+.component img {
+  flex: 0 0 20%; /* Image takes 20% of the width */
+  border-radius: 8px; /* Rounded corners for the component image */
+  margin-right: 15px; /* Space between the image and text */
+}
+
+.component-description {
+  flex: 1; /* Text takes the remaining space */
+}
+
+.component-description h3 {
+  color: #007BFF; /* Blue color for component titles */
+}
+
+.component-description p {
+  margin-top: 0.5rem; /* Space above paragraphs */
+  color: #555; /* Softer text color */
+}

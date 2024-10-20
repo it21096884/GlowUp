@@ -1,0 +1,52 @@
+.technologies-section {
+  padding: 3rem 0;
+  background: linear-gradient(to right, rgb(255, 255, 255), #efd9bc); /* Light background for contrast */
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.1); /* White shadow combined with subtle black for depth */
+  max-width: 86%; /* Adjust width based on your layout */
+  margin: 0 auto; /* Center the section horizontally */
+  background-clip: padding-box; /* Ensures shadow doesn't overlap */
+}
+
+.technologies-section h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333; /* Dark text for visibility */
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+  gap: 50px;
+  margin: 0 auto; /* Center the grid */
+  max-width: 950px; /* Maximum width for larger screens */
+}
+
+.tech-card {
+  background-color: white;
+  border-radius: 13px;
+  padding: 1.3rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease;
+
+}
+
+.tech-card:hover {
+
+  transform: translateY(-4px); /* Slight lift on hover */
+  background: linear-gradient(to right, rgb(255, 255, 255), #efece8); /* Smooth gradient from white to
+  
+}
+
+.tech-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem; /* Space below the logo */
+}
+
+p {
+  margin-top: 1px;
+  font-size: 1rem;
+  color: #060606; /* Softer text color */
+}

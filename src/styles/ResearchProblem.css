@@ -1,0 +1,105 @@
+.research-problem-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to left, rgb(255, 255, 255),#efd9bc);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+  max-width: 86%; /* Ensure it doesn't take full width */
+  margin: 0 auto; /* Center the section */
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.problem-solution-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
+}
+
+.problem-description {
+  width: 48%; /* Take up 48% of the width for problem */
+}
+
+.solution-description {
+  width: 48%; /* Take up 48% of the width for solution */
+
+}
+
+.problem-description h3, .solution-description h3 {
+  color: #60490d;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.problem-description h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.problem-description p, .solution-description p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #555;
+}
+.pros-tittle{
+  font-size: 1.5rem;
+  color: #008CBA;
+  text-align: center;
+
+}
+.problem-cont{
+  line-height: 1.5;
+  text-align:justify;
+}
+.solution-image2 {
+  width: 38%; /* Set width to place the image in the left side space */
+  margin-left: 0; /* Align to the left */
+  text-align: left;
+  position: relative; /* Ensure positioning of the content */
+}
+.solution-image2 img.app-image2 {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Adjust the image size to fit the container */
+  height: auto;
+}
+
+.solution-image2 p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  text-align: center;
+}
+.solution-image {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.solution-image img.app-image {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 42%; /* Limit the image size to 80% of its container */
+  height: auto;   /* Maintain aspect ratio */
+}
+
+.solution-image p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 700px) {
+  .solution-image img.app-image {
+    max-width: 50%; /* Reduce image size on mobile to 60% of container */
+  }
+  .solution-image img {
+    width: 80%; /* Reduce image size on mobile */
+  }
+}

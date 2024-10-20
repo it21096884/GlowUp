@@ -1,0 +1,101 @@
+/* Presentations Section */
+.presentations-section {
+  padding: 4rem 0;
+  background: linear-gradient(to left, rgb(255, 255, 255), #efd9bc);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.1); /* White shadow combined with subtle black for depth */
+  max-width: 100%; /* Adjust width based on your layout */
+  margin: 0 auto; /* Center the section horizontally */
+  background-clip: padding-box; /* Ensures shadow doesn't overlap */
+  
+}
+/* Card Styling */
+.presentation-card {
+  background-color: #fff;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.presentation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 0;
+  text-align: center;
+}
+
+/* Icon Styling */
+.presentation-icon {
+  font-size: 1.2rem; /* Slightly reduced icon size */
+  margin-bottom: 0.4rem;
+  color: #e46910;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 0.9rem; /* Reduced card title font size */
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 0.6rem; /* Reduced card text font size */
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.text-muted {
+  color: #888;
+  font-weight: 500;
+}
+
+/* Card Footer */
+.card-footer {
+  background-color: #f9f9f9;
+  border-top: none;
+  font-size: 0.7rem; /* Reduced footer font size */
+  padding: 0.5rem;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-name {
+  font-size: 0.7rem; /* Reduced group name font size */
+  font-weight: bold;
+  color: #666;
+}
+
+.text-primary {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.text-primary:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1rem; /* Adjusted for smaller screens */
+  }
+
+  .presentation-card {
+    margin-bottom: 1rem;
+  }
+}

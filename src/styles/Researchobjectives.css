@@ -1,0 +1,92 @@
+/* ResearchObjectives.module.css */
+
+/* Section Styling */
+.section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to left, rgb(255, 255, 255), #efd9bc);
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Section Title */
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+/* Grid Layout for Objectives */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Card Container with Line on the Left */
+.card-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  position: relative;
+  text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Left Indicator Line */
+.card-container::before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #33c57f; /* Green color for the left line */
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+/* Icon Styling on the Left Side */
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33c57f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  z-index: 1;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Content inside Card */
+.card-content {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}

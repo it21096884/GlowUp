@@ -1,0 +1,107 @@
+.literature-survey-section {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to left, rgb(255, 255, 255), #efd9bc);
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  max-width: 86%;
+  margin: 0 auto;
+}
+
+h3 {
+  color: rgb(123, 229, 229);
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.survey-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Update this to make the highlight box and content sit side by side */
+.text-and-highlight {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.highlight-box {
+  background: linear-gradient(to right, rgb(255, 255, 255), #f8eddb);
+  border-left: 5px solid rgb(65, 53, 17);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  width: 82%; /* Adjust width for side-by-side layout */
+  margin-left: 50px; /* Add spacing between the text and highlight box */
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.highlight-content {
+  display: flex;
+  align-items: center;
+}
+
+.highlight-image {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.chart-container {
+  width: 45%;
+}
+
+.chart-image {
+  width: 100%;
+  height: auto;
+}
+
+.chart-caption {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.text-content {
+  width: 50%;
+  text-align: justify;
+ 
+  
+}
+.para-lit {
+  margin-bottom: 20px;
+ 
+  font-weight: 400;
+    line-height: 1.5;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.text-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  
+  
+}
+
+.referencess {
+  margin-top: 40px;
+  width: 90%;
+  text-align: justify;
+  font-size: 0.6em;
+}
+.referencess h6{
+  font-weight: bold;
+  font-size: 10px;
+}

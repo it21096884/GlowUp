@@ -1,0 +1,130 @@
+/* Documents Section */
+.documents-section {
+  padding: 4rem 0;
+  background: linear-gradient(to right, rgb(255, 255, 255), #efd9bc);
+  color: #333;
+  max-width: 100%;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.1); /* White shadow combined with subtle black for depth */
+  max-width: 90%; /* Adjust width based on your layout */
+  margin: 0 auto; /* Center the section horizontally */
+  background-clip: padding-box; /* Ensures shadow doesn't overlap */
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Card Styling */
+.document-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.document-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 0;
+  text-align: center;
+}
+
+/* Icon Styling */
+.document-icon {
+  font-size: 5rem; /* Larger icon */
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.pdf-icon {
+  color: #dc3545;
+}
+
+.folder-icon {
+  color: #28a745;
+}
+
+.pending-icon {
+  color: #ffc107;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.text-muted {
+  color: #888;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Card Footer */
+.card-footer {
+  background-color: #f9f9f9;
+  border-top: none;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.group-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.text-primary {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.text-primary:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.disabled {
+  pointer-events: none;
+  color: gray;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .document-card {
+    margin-bottom: 2rem;
+  }
+}
+
