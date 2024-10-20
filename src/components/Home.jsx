@@ -57,7 +57,7 @@ const Home = () => {
   </div>
         <ul className="nav-links">
           <li>
-            <a href="/">Home</a>
+            <a href="/GlowUp/">Home</a>
           </li>
 
           {/* Domain Dropdown */}
@@ -184,6 +184,7 @@ const Home = () => {
         </div>
       </header>
     </div>
+    
   );
 };
 
