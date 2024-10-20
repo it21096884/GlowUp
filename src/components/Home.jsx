@@ -57,7 +57,7 @@ const Home = () => {
   </div>
         <ul className="nav-links">
           <li>
-            <a href="/GlowUp/">Home</a>
+            <a href="#">Home</a>
           </li>
 
           {/* Domain Dropdown */}
