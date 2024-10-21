@@ -97,7 +97,7 @@ const AboutUs = () => {
                 />
                 <h2>{supervisor.name}</h2>
                 <p className="role">{supervisor.role}</p>
-                <p>{supervisor.institution}</p>
+                <p className="supervosor-bar">{supervisor.institution}</p>
                 <h4>Department</h4>
                 {supervisor.department && <p className="dep">{supervisor.department}</p>}
                 <div className="contact-links">

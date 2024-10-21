@@ -21,7 +21,9 @@
   gap: 1rem;
   text-align: center;
 }
-
+.supervosor-bar{
+text-align: center;
+}
       
 /* Styling for individual member cards */
 .member-card {
