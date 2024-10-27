@@ -14,6 +14,7 @@ import ResearchObjectives from "./components/Domain/ResearchObjectives";
 import Methodology from "./components/Domain/Methodology";
 import Technologies from "./components/Domain/Technologies";
 import ContactUs from "./components/contactUs";
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <br/>
       <Methodology />
       <br/>
+      
       <Technologies />
       <br/>
       <Milestones />
