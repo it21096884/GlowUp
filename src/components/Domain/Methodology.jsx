@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles//Methodology.css';
-import architectureImage from '../../logos/high_level_diagram.jpg'; 
+import architectureImage from '../../logos/high_level_diagram.jpeg'; 
 
 const Methodology = () => {
   return (
