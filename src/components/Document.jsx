@@ -38,13 +38,6 @@ const documents = [
     link: "https://drive.google.com/drive/folders/1mZgfXtg0C1jvPy_jzIC-t9c6LeKafecY?usp=sharing"
   },
   {
-    title: "Research Papers",
-    date: "2024/08/28",
-    group: "Group & Individual",
-    icon: "fas fa-folder-open folder-icon",
-    link: "https://drive.google.com/drive/folders/1hhXvx8adG7wsHQ7HreC8LOP3yB1A8F06?usp=sharing"
-  },
-  {
     title: "Final Report",
     date: "Yet to be submitted, link will be updated soon.",
     group: "Group & Individual",
@@ -63,8 +56,8 @@ const documents = [
 const Documents = () => {
   return (
     <section id="document" className="documents-section container">
-      <h2>DOCUMENTS</h2><br/>
-      
+      <h2>DOCUMENTS</h2><br />
+
       <div className="row">
         {documents.map((doc, index) => (
           <div className="col-md-3 mb-4" key={index}>
@@ -78,11 +71,11 @@ const Documents = () => {
                 </p>
               </div>
               <div className="card-footer">
-                <span className="group-name">{doc.group}</span><br/>
-                <a 
-                  href={doc.link !== "#" ? doc.link : undefined} 
-                  className={`text-primary ${doc.link === "#" ? "disabled" : ""}`} 
-                  target={doc.link !== "#" ? "_blank" : undefined} 
+                <span className="group-name">{doc.group}</span><br />
+                <a
+                  href={doc.link !== "#" ? doc.link : undefined}
+                  className={`text-primary ${doc.link === "#" ? "disabled" : ""}`}
+                  target={doc.link !== "#" ? "_blank" : undefined}
                   rel={doc.link !== "#" ? "noopener noreferrer" : undefined}
                   aria-disabled={doc.link === "#"}
                 >
